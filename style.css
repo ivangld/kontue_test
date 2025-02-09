@@ -1,0 +1,87 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F9F8FD;
+    font-family: "gilroy";
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin: 23px 0;
+    width: 1160px;
+    height: 51px;
+    background-color: #FFFFFFE5;
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.logo{
+    padding-left: 64px;
+}
+.menu_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 41px;
+    padding-left: 49px;
+}
+.menu_list a{
+    height: 100%;
+}
+.tel{
+    color: #38BFF2;
+    
+    margin-left: 250px;
+
+}
+
+main{
+    width: 1160px;
+    height: 481px;
+
+}
+.swiper {
+    width: 1160px;
+    height: 481px;
+
+    background-color: #FFFFFFE5;
+    border-radius: 75px;
+
+
+}
+
+h1 {
+    margin: 60px 0px 34px 0px;
+    text-align: center;
+}
+
+.information_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+}
+.card {
+    width: 254px;
+    height: 254px;
+    border-radius: 30px;
+    background-color: #EAF2F5;
+    flex-shrink: 0;
+}
+
+
+#map {
+    margin: 60px 0px;
+}
+
+
