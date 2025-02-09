@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="media.css">
 
+    <!--fancybox-->
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
     <script src="https://api-maps.yandex.ru/2.1/?apikey=d92e336c-a008-4ecd-b044-1abcf2f26667&lang=ru_RU" type="text/javascript"></script>
     <script type="text/javascript">
         ymaps.ready(init);
@@ -39,7 +42,9 @@
         <div class="tel">+7 (499) 348 93 96</div>
     </header>
     <main>
-        <div class="swiper">
+        <div class="slide-mobile"><div class="swiper-slide"><img src="/Group 1244.png" alt=""></div>
+    </div>
+        <section class="swiper">
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="/Group 1244.png" alt=""></div>
@@ -51,34 +56,43 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
 
-        </div>
+        </section>
 
-
-        <div class="banner"></div>
 
         <h1> Обучение в CoDe – это <br >удобно и результативно </h1>
 
-        <div class="information_cards">
-            <div class="card card1"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+        <section class="information_cards">
+            <div class="card"><img src="/cards/1.svg" alt=""></div>
+            <div class="card"><img src="/cards/2.svg" alt=""></div>
+            <div class="card"><img src="/cards/3.svg" alt=""></div>
+            <div class="card"><img src="/cards/4.svg" alt=""></div>
+            <div class="card"><img src="/cards/5.svg" alt=""></div>
+            <div class="card"><img src="/cards/6.svg" alt=""></div>
+            <div class="card"><img src="/cards/7.svg" alt=""></div>
 
 
-        </div>
+        </section>
+        <section class="grid">
+            <a href="/Column.png" data-fancybox="grid"><img src="/Column.png" alt=""></a>
+            <a href="/Column2.png" data-fancybox="grid"><img src="/Column2.png" alt=""></a>
 
 
+        </section>
 
 
         <div id="map" style="width: 1160px; height: 423px"></div>    
     </main>
-    <footer>
 
+    <footer>
     </footer>
-    </div>
     <script src="/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script>
+        fancybox.bind('[data-fancybox="grid"]'', {
+
+        });
+    </script>
 </body>
 </html>

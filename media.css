@@ -1,0 +1,25 @@
+@media (max-width: 320px) {
+    .menu{
+        display: none;
+    }
+    .wrapper{
+        width: 320px;
+
+    }
+    .tel{
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    body .swiper{
+        display: none;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        
+    }
+    .slide-mobile{
+        display: block;
+    }
+}
